@@ -22,6 +22,6 @@ Please make sure to update tests as appropriate.
 This project has received contributions of code from
 (alphabetically by first name or nickname):
 
-    - Caio Jordão Carvalho ([cjlcarvalho](https://github.com/cjlcarvalho))
-    - Thalles Yan Santos Medrado ([tysm](https://github.com/tysm))
+  - Caio Jordão Carvalho ([cjlcarvalho](https://github.com/cjlcarvalho))
+  - Thalles Yan Santos Medrado ([tysm](https://github.com/tysm))
 
