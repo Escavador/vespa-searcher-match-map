@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:container:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:container-dev:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.11" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:jdisc_core:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.xml.bind:jaxb-api:2.3.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.sun.xml.bind:jaxb-core:2.3.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.sun.xml.bind:jaxb-impl:2.3.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.sun.activation:javax.activation:1.2.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.annotation:javax.annotation-api:1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.inject.extensions:guice-assistedinject:3.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.inject.extensions:guice-multibindings:3.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: commons-daemon:commons-daemon:1.0.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.felix:org.apache.felix.framework:6.0.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.felix:org.apache.felix.log:1.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.slf4j:slf4j-api:1.7.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.slf4j:jcl-over-slf4j:1.7.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.slf4j:log4j-over-slf4j:1.7.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.slf4j:slf4j-jdk14:1.7.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:yolean:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:jdisc_http_service:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:simplemetrics:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:config-lib:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.code.findbugs:annotations:1.3.9" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.code.findbugs:jsr305:1.3.9" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:annotations:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.guava:guava:20.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.inject:guice:no_aop:3.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.felix:org.apache.felix.main:6.0.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: commons-logging:commons-logging:1.1.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:provided-dependencies:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.bouncycastle:bcprov-jdk15on:1.58" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.58" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.eclipse.jetty:jetty-util:9.4.19.v20190610" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.eclipse.jetty:jetty-http:9.4.19.v20190610" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.eclipse.jetty:jetty-io:9.4.19.v20190610" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:component:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:model-evaluation:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:searchcore:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:container-disc:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.json:json:20090211" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:container-core:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:container-accesslogging:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:processing:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:chain:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:container-di:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:messagebus:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:documentapi:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:vdslib:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:fileacquirer:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:statistics:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:container-messagebus:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:messagebus-disc:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:jdisc_messagebus_service:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:vespalog:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:container-jersey2:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.jersey.containers:jersey-container-servlet-core:2.25" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.hk2.external:javax.inject:2.5.0-b30" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.jersey.core:jersey-common:2.25" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.jersey.bundles.repackaged:jersey-guava:2.25" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.hk2:osgi-resource-locator:1.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.jersey.core:jersey-server:2.25" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.jersey.media:jersey-media-jaxb:2.25" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.jersey.containers:jersey-container-servlet:2.25" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.jersey.media:jersey-media-json-jackson:2.25" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.jersey.ext:jersey-entity-filtering:2.25" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.8.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.8.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.jersey.media:jersey-media-multipart:2.25" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jvnet.mimepull:mimepull:1.9.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.jersey.ext:jersey-proxy-client:2.25" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.jersey.core:jersey-client:2.25" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.hk2:hk2-api:2.5.0-b30" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.hk2:hk2-utils:2.5.0-b30" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.hk2.external:aopalliance-repackaged:2.5.0-b30" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.hk2:hk2-locator:2.5.0-b30" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.javassist:javassist:3.20.0-GA" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.8.11" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.8.11" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:vespajlib:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: net.jpountz.lz4:lz4:1.3.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:defaults:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:container-search-and-docproc:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:container-search:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:fsa:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: net.jcip:jcip-annotations:1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:docproc:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:searchlib:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:config-bundle:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:config:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:configgen:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:document:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:linguistics:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:configdefinitions:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:predicate-search-core:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:vespaclient-container-plugin:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:vespa-http-client:7.74.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.yahoo.vespa:container-test:7.74.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.yahoo.vespa:application:7.74.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.yahoo.vespa:standalone-container:7.74.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.yahoo.vespa:config-provisioning:7.74.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.yahoo.vespa:config-model:7.74.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: commons-io:commons-io:2.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.yahoo.vespa:config-application-package:7.74.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.thaiopensource:jing:20091111" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.yahoo.vespa:metrics:7.74.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.yahoo.vespa:metrics-proxy:7.74.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.yahoo.vespa:logd:7.74.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.yahoo.vespa:storage:7.74.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.yahoo.vespa:vsm:7.74.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.yahoo.vespa:vespaclient-core:7.74.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.yahoo.vespa:indexinglanguage:7.74.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: commons-codec:commons-codec:1.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.yahoo.vespa:searchsummary:7.74.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.commons:commons-lang3:3.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.yahoo.vespa:config-model-api:7.74.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.yahoo.vespa:model-integration:7.74.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.google.protobuf:protobuf-java:3.7.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.tensorflow:proto:1.12.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.tensorflow:tensorflow:1.12.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.tensorflow:libtensorflow:1.12.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.tensorflow:libtensorflow_jni:1.12.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:jrt:7.74.17" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.yahoo.vespa:security-utils:7.74.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.yahoo.vespa:container-search-gui:7.74.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.yahoo.vespa:zkfacade:7.74.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.curator:curator-recipes:2.9.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.curator:curator-framework:2.9.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.curator:curator-client:2.9.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.zookeeper:zookeeper:3.4.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: log4j:log4j:1.2.16" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: jline:jline:0.9.94" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: io.netty:netty:3.7.0.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.yahoo.vespa:jdisc_jetty:7.74.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.eclipse.jetty:jetty-continuation:9.4.19.v20190610" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.eclipse.jetty:jetty-server:9.4.19.v20190610" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.eclipse.jetty:jetty-servlet:9.4.19.v20190610" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.eclipse.jetty:jetty-security:9.4.19.v20190610" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.eclipse.jetty:jetty-servlets:9.4.19.v20190610" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.eclipse.jetty:jetty-jmx:9.4.19.v20190610" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.optimaize.languagedetector:language-detector:0.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.arnx:jsonic:1.2.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.intellij:annotations:12.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.opennlp:opennlp-tools:1.8.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.ibm.icu:icu4j:57.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.8.11" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.11" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.11" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.8.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.fasterxml.woodstox:woodstox-core:5.0.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: commons-collections:commons-collections:3.2.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: io.airlift:airline:0.7" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.antlr:antlr-runtime:3.5.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.antlr:antlr4-runtime:4.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.abego.treelayout:org.abego.treelayout.core:1.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.commons:commons-exec:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hdrhistogram:HdrHistogram:2.1.8" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: xerces:xercesImpl:2.11.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: xml-apis:xml-apis:1.4.01" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: commons-beanutils:commons-beanutils:1.7.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: commons-beanutils:commons-beanutils-core:1.8.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: commons-configuration:commons-configuration:1.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: commons-digester:commons-digester:1.8" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-highlighter:8.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-memory:8.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-queries:8.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-core:8.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-queryparser:8.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-sandbox:8.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-analyzers-common:8.1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-commons:1.5.0" level="project" />
+  </component>
+</module>
