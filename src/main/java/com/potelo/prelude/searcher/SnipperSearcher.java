@@ -54,7 +54,7 @@ public class SnipperSearcher extends Searcher
 {
 
     @Inject
-    SnipperSearcher(ComponentId id, QrSearchersConfig config)
+    public SnipperSearcher(ComponentId id, QrSearchersConfig config)
     {
         super(id);
 
