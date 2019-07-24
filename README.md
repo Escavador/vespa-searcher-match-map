@@ -7,8 +7,32 @@ This project is a plugin for [vespa.ai](https://vespa.ai/) search engine that in
 mvn install package -f vespa-searcher-match-map/
 ```
 
-## Images
-To be included.
+## Output
+```json
+{
+   ...
+   "snippets": {
+       "field_name": {
+           "fieldsnippets": [
+               {
+                   "offset": 0,
+                   "length": 45, 
+                   "highlightedranges": [
+                       {
+                           "offset": 6, 
+                           "length": 3
+                       }
+                   ], 
+                   "content": "and a car run in the road with no speed limit"
+               },
+               ...
+           ],
+           "fieldlength": 1000
+      }
+   } 
+   ...
+}
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
