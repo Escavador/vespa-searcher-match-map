@@ -3,6 +3,9 @@ package com.potelo.prelude.searcher;
 import com.potelo.prelude.hitfield.HighlightedRange;
 import com.yahoo.prelude.hitfield.HitField;
 import com.yahoo.prelude.searcher.JuniperSearcher;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.json.JSONArray;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -44,6 +47,38 @@ class UtilsSearcher
         if (result.size() == 0)
             return null;
         return result;
+    }
+
+    @SuppressWarnings("unchecked")
+    static <T extends Comparable> JSONArray sortJsonArray (JSONArray array, String fieldToCompare)
+    {
+        List<JSONObject> jsonValues = new ArrayList<>();
+        for (int i = 0; i < array.length(); i++) {
+            try {
+                jsonValues.add(array.getJSONObject(i));
+            }
+            catch (JSONException e) {
+                return array;
+            }
+        }
+        jsonValues.sort((JSONObject a, JSONObject b) -> {
+            try {
+                T offsetA = (T) a.get(fieldToCompare);
+                T offsetB = (T) b.get(fieldToCompare);
+
+                return offsetA.compareTo(offsetB);
+            }
+            catch (JSONException e) {
+                return 0;
+            }
+        });
+
+        JSONArray sortedArray = new JSONArray();
+
+        for (JSONObject jsObj : jsonValues)
+            sortedArray.put(jsObj);
+
+        return sortedArray;
     }
 
     static List<HighlightedRange> gatherHiPositions(HitField field, boolean bolding)

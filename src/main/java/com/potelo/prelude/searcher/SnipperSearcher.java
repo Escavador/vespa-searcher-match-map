@@ -171,8 +171,12 @@ public class SnipperSearcher extends Searcher
                         }
                     }
 
-                    if (fieldSnippets != null && fieldSnippets.length() == 0)
-                        fieldSnippets = null;
+                    if (fieldSnippets != null) {
+                        if (fieldSnippets.length() == 0)
+                            fieldSnippets = null;
+                        else
+                            fieldSnippets = UtilsSearcher.<Integer>sortJsonArray(fieldSnippets, "offset");
+                    }
 
                     JSONObject fieldInfo = new JSONObject();
                     try
