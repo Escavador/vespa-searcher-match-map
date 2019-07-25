@@ -20,7 +20,6 @@ field field_name type string {
 ## Output
 ```json
 {
-   ...
    "snippets": {
        "field_name": {
            "fieldsnippets": [
@@ -35,12 +34,10 @@ field field_name type string {
                    ], 
                    "content": "and a car run in the road with no speed limit"
                },
-               ...
            ],
            "fieldlength": 1000
       }
    } 
-   ...
 }
 ```
 
