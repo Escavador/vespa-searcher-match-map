@@ -26,27 +26,38 @@ public class Snippet
         return _offset;
     }
 
+    public String getContent()
+    {
+        return _content;
+    }
+
     public List<HighlightedRange> getHighlightedRanges()
     {
         return _highlightedRanges;
     }
 
-    public void addContent(String newContent, boolean pushBack) throws Exception
+    public void pushContentFront(String content) throws Exception
     {
-        if (newContent == null)
+        if (content == null)
             throw new Exception("Can't add null content");
         else if (_content == null)
-            _content = newContent;
-        else
-        {
-            _content += newContent;
-            if (!pushBack)
-            {
-                _offset -= newContent.length();
-                if (_offset < 0)
-                    throw new Exception("Offset is negative");
-            }
+            _content = content;
+        else {
+            _content = content + _content;
+            _offset -= content.length();
+            if (_offset < 0)
+                throw new Exception("Offset is negative");
         }
+    }
+
+    public void pushContentBack(String content) throws Exception
+    {
+        if (content == null)
+            throw new Exception("Can't add null content");
+        else if (_content == null)
+            _content = content;
+        else
+            _content = _content + content;
     }
 
     public void addHighlightedRange(HighlightedRange highlightedRange) throws Exception
@@ -76,7 +87,7 @@ public class Snippet
         {
             json.put("offset", _offset);
             // TODO separator
-            json.put("content", _content);
+            json.put("content", "..." + _content + "...");
             json.put("length", length());
 
             JSONArray array = new JSONArray();

@@ -295,6 +295,7 @@ public class SnipperSearcher extends Searcher
             String content = documentToProcess.substring(hiRange.getOffset(), hiRange.getOffset() + hiRange.getLength());
 
             Snippet snippet = new Snippet(hiRange.getOffset(), content);
+
             snippet.addHighlightedRange(hiRange);
 
             snippets.add(snippet);
@@ -313,7 +314,8 @@ public class SnipperSearcher extends Searcher
             while (!queue.isEmpty())
             {
                 List<Integer> list = queue.remove();
-                HighlightedRange fstHiRange = hiRanges.get(list.get(2)), sndHiRange = hiRanges.get(list.get(3));
+                HighlightedRange fstHiRange = hiRanges.get(list.get(2));
+                HighlightedRange sndHiRange = hiRanges.get(list.get(3));
 
                 Snippet snippet1 = hiRange2Snippet.get(fstHiRange);
                 Snippet snippet2 = hiRange2Snippet.get(sndHiRange);
@@ -327,7 +329,7 @@ public class SnipperSearcher extends Searcher
                     if (snippet1.length() + length <= _upperBoundSnippetLength)
                     {
                         String content = documentToProcess.substring(offset, offset + length);
-                        snippet1.addContent(content, true);
+                        snippet1.pushContentBack(content);
 
                         for (HighlightedRange hiRange : snippet2.getHighlightedRanges())
                         {
@@ -346,7 +348,7 @@ public class SnipperSearcher extends Searcher
                     if (snippet1.length() + length < _upperBoundSnippetLength)
                     {
                         String content = documentToProcess.substring(offset, offset + length);
-                        snippet1.addContent(content, true);
+                        snippet1.pushContentBack(content);
 
                         snippet1.addHighlightedRange(sndHiRange);
                         hiRange2Snippet.put(sndHiRange, snippet1);
@@ -374,7 +376,7 @@ public class SnipperSearcher extends Searcher
                     if (snippet2.length() + length < _upperBoundSnippetLength)
                     {
                         String content = documentToProcess.substring(offset, offset + length);
-                        snippet2.addContent(content, false);
+                        snippet2.pushContentFront(content);
 
                         snippet2.addHighlightedRange(fstHiRange);
                         hiRange2Snippet.put(fstHiRange, snippet2);
@@ -464,7 +466,7 @@ public class SnipperSearcher extends Searcher
                 int offset = Math.min(tokStartPositions.get(i), snippet.getOffset());
 
                 String content = documentToProcess.substring(offset, snippet.getOffset());
-                snippet.addContent(content, false);
+                snippet.pushContentFront(content);
                 snippetLack -= content.length();
 
                 // trying to grow right the rest of snippetLack.
@@ -474,7 +476,7 @@ public class SnipperSearcher extends Searcher
                     i--;  // the lower bound may be greater than we expect.
 
                 content = documentToProcess.substring(offset, Math.max(offset, tokEndPositions.get(i)));
-                snippet.addContent(content, true);
+                snippet.pushContentBack(content);
                 snippetLack -= content.length();
 
                 // trying to grow left again the rest of snippetLack.
@@ -482,7 +484,7 @@ public class SnipperSearcher extends Searcher
                 offset = Math.min(tokStartPositions.get(i), snippet.getOffset());
 
                 content = documentToProcess.substring(offset, snippet.getOffset());
-                snippet.addContent(content, false);
+                snippet.pushContentFront(content);
 
                 // searching for hiRanges in the new snippet left range.
                 if (snippet.getOffset() < originalLeftOffset)
