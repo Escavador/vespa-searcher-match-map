@@ -7,6 +7,16 @@ This project is a plugin for [vespa.ai](https://vespa.ai/) search engine that in
 mvn install package -f vespa-searcher-match-map/
 ```
 
+On your search definition file, please include `snip` and `dynsnip` as query commands in your fields that are going to be mapped.
+
+```
+field field_name type string {
+    indexing: summary | index
+    query-command: snip
+    query-command: dynsnip
+}
+```
+
 ## Output
 ```json
 {
