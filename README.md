@@ -7,14 +7,39 @@ This project is a plugin for [vespa.ai](https://vespa.ai/) search engine that in
 mvn install package -f vespa-searcher-match-map/
 ```
 
-On your search definition file, please include `snip` and `dynsnip` as query commands in your fields that are going to be mapped.
+On your search definition file, please include `snip` as a query command in your fields that are going to be mapped. `snip` is incompatible with Vespa's dyn summarization (`summary: dynamic`) and requires a highlight configuration (`bolding: on`).
+
+In orther to retrieve a dyn summarization, please include `dynsnip` as a query command too.
 
 ```
 field field_name type string {
     indexing: summary | index
+    bolding: on
     query-command: snip
     query-command: dynsnip
 }
+```
+
+On your *services.xml* file, add the searcher (`com.potelo.prelude.searcher.SnipperSearcher`) into a search chain:
+
+```xml
+<?xml version="1.0" encoding="utf-8" ?>
+<services version="1.0">
+    <admin version="2.0">
+      <adminserver hostalias="node1" />
+    </admin>
+
+    <container version="1.0">
+        <search>
+          <chain id="default" inherits="vespa">
+            <searcher id="com.potelo.prelude.searcher.SnipperSearcher" />
+          </chain>
+        </search>
+        <nodes>
+          <node hostalias="node1" />
+        </nodes>
+    </container>
+</services>
 ```
 
 ## Output
