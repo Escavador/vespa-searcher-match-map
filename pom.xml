@@ -15,7 +15,7 @@
   <properties>
     <vespa_version>7.74.17</vespa_version> <!-- Find latest version at search.maven.org/search?q=g:com.yahoo.vespa -->
     <lucene_version>8.1.1</lucene_version>
-    <junit_version>4.11</junit_version>
+    <junit_version>4.13.1</junit_version>
     <test.hide>true</test.hide>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
